@@ -1,0 +1,21 @@
+# Local environment files; keep the public contract tracked.
+.env
+.env.*
+!.env.example
+
+# Local credentials and keys
+*.key
+*.pem
+*.p12
+*.pfx
+
+# Operating-system and editor-local files
+.DS_Store
+Thumbs.db
+*.swp
+*.swo
+*~
+
+# Generic local logs and temporary files
+*.log
+*.tmp
